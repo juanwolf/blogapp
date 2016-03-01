@@ -3,9 +3,10 @@
  */
 
 export class Post {
-    title: String;
-    content : String;
-    imageUrl: String;
 
-    constructor(private title : String, private content : String, private imageUrl: String) {}
+    constructor(public title : string, public content : string, public imageUrl: string) {}
+
+    getIntroduction() : string {
+        return this.content.substr(0, 100);
+    }
 }

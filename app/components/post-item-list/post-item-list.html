@@ -1,0 +1,15 @@
+<ion-card>
+    <img src="{{ post.imageUrl }}">
+    <ion-card-content>
+        <h2 class="card-title">{{ post.title }}</h2>
+        <span [outerHTML]="  post.getIntroduction() "></span>
+    </ion-card-content>
+    <ion-row no-padding>
+        <ion-col>
+            <button block default (click)="openNavDetailsPage(post)">
+                Read this article
+                <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+        </ion-col>
+    </ion-row>
+</ion-card>

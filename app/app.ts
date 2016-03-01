@@ -5,11 +5,27 @@ import {HTTP_PROVIDERS} from 'angular2/http';
 
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
 import {Type} from 'angular2/core';
-import {PostService} from './models/PostService';
+import {PostService} from './services/PostService';
 import {Page1} from './pages/page1/page1';
 
 @App({
-    template: '<ion-nav [root]="rootPage"></ion-nav>',
+    template: `
+    <ion-menu [content]="content">
+      <ion-toolbar>
+        <ion-title>Pages</ion-title>
+      </ion-toolbar>
+      <ion-content>
+        <ion-list>
+          <button ion-item>
+            Login
+          </button>
+          <button ion-item>
+            Signup
+          </button>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-nav [root]="rootPage"></ion-nav>`,
     config: {} // http://ionicframework.com/docs/v2/api/config/Config/
 })
 export class MyApp {

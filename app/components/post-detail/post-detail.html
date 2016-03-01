@@ -1,0 +1,12 @@
+<ion-navbar *navbar>
+    <ion-title>
+        {{ post.title }}
+    </ion-title>
+</ion-navbar>
+
+<ion-content padding>
+    <h2 class="card-title">{{ post.title }}</h2>
+    <img src="{{ post.imageUrl }}">
+    <span [outerHTML]="  post.content "></span>
+    <!-- TODO: Add disqus -->
+</ion-content>
