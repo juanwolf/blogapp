@@ -7,5 +7,7 @@
   <p>
   In this little ionic app you'll be able to read all the articles written in blog.juanwolf.fr
   </p>
-  <post-cmp></post-cmp>
+  <div class="post-section" *ngFor="#post of posts">
+      <post-cmp [post]=post></post-cmp>
+  </div>
 </ion-content>
