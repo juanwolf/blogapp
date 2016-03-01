@@ -14,8 +14,8 @@
     "strip-sourcemap-loader": "0.0.1",
     "typescript": "1.7.5"
   },
-  "name": "blogapp2",
-  "description": "blogapp2: An Ionic project",
+  "name": "blogapp",
+  "description": "blogapp: A little Rest client using the blog.juanwolf.fr API",
   "cordovaPlugins": [
     "cordova-plugin-device",
     "cordova-plugin-console",
@@ -24,5 +24,7 @@
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [
+    "android"
+  ]
 }

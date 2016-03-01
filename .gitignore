@@ -12,3 +12,4 @@ app/**/*.js
 app/**/*.map
 hooks/**/*.js
 hooks/**/*.map
+.profile

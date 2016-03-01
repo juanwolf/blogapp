@@ -7,7 +7,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": false,
-    "sourceRoot": "",
+    "sourceRoot": ".",
     "inlineSourceMap": false,
     "inlineSources": false
   },
