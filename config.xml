@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="fr.juanwolf.blogapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>BlogApp</name>
+<widget id="fr.juanwolf.blogapp" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>blog.juanwolf.fr - The App</name>
   <description>A little webapp to retrieve posts from a REST API.</description>
   <author email="contact@juanwolf.fr" href="https://juanwolf.fr/">Jean-Loup Adde</author>
   <content src="index.html"/>
